@@ -1,84 +1,178 @@
-<!-- Hero section with BIM GIF -->
-<p align="center">
-  <img src="./assets/bim-hero.gif" alt="BIM automation / prefab housing animation" width="100%" />
-</p>
+<div align="center">
 
-<h1 align="left">Sam — Digital Construction Engineer (BIM Automation)                                                                                                             <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Sammohammad78&label=Profile+Views" /> </h1> 
-<p align="left">
-  I build automation that makes BIM predictable, repeatable, and ready for industrialised construction.
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&height=60&lines=Product+Engineer+%E2%80%94+Digital+Construction;Building+systems+that+make+prefab+housing+work)](https://git.io/typing-svg)
 
----
+<img src="./assets/bim-hero.svg" alt="BIM automation hero" width="100%" />
 
-## 🏗️ About & focus
+# Sam A. Mohammad
 
-I work at the intersection of **Revit**, **Dynamo**, and **data** for prefab and housing systems.  
-Most of my work centres on:
+**Product Engineer — Digital Construction & BIM Automation**
 
-- **Revit workflow automation** – joins, sections, dimensions, and cleanup driven by explicit rules  
-- **Prefab housing systems** – rule-based detailing, controlled variants, and reusable building blocks  
-- **Parametric façades** – panel grids and schedules designed with fabrication in mind  
-- **5D / CPQ logic** – geometry tied directly to quantities, cost, and planning  
-- **Drawing → data pipelines** – turning BIM into structured information for procurement and production
+I build the automation layer between design intent and factory output.  
+Revit models that behave. Façade logic that production teams can trust.
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samamohammad-92790416b)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sammohammad78)
+[![Profile Views](https://komarev.com/ghpvc/?username=Sammohammad78&style=for-the-badge&color=0A66C2&label=VIEWS)](https://github.com/Sammohammad78)
+
+</div>
 
 ---
 
-## 🧠 Core stack
+## About
 
-<div align="left">
-  <!-- General dev stack -->
-  <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,git,github,linux,vscode" 
-       alt="Python, JS/TS, Node, Git, GitHub, Linux, VS Code" />
+Product engineer at **Heijmans Woningbouw** in the Netherlands, working on industrialised housing and prefab systems.
+
+I write Dynamo scripts and Python tools that turn Revit from a drawing application into a production system — where walls join correctly, sections align automatically, and façade configurations follow rules instead of tribal knowledge.
+
+Fifteen years in construction. Background in façade engineering. Six Sigma Black Belt approach to reducing variation in how models behave.
+
+**Languages:** English • Nederlands • Türkçe • العربية
+
+---
+
+## What I Build
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Prefab Housing Systems
+
+Rule-based workflows for modular construction:
+
+- Component logic for walls, floors, roofs, façades
+- Variant handling across productised housing concepts
+- Validation tools that catch issues before production
+
+</td>
+<td width="50%" valign="top">
+
+### Revit Automation
+
+Repeatable rules instead of manual work:
+
+- Section alignment with house-type detection
+- Dimensioning strategies enforced across views
+- Wall join logic for prefab module connections
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Façade Engineering
+
+Parametric systems that stay synchronised:
+
+- Panel grids and sub-frames from constraint sets
+- Geometry, schedules, and BOM exports aligned
+- Climate-responsive configurations
+
+</td>
+<td width="50%" valign="top">
+
+### BIM → Data Pipelines
+
+Structured exports for downstream systems:
+
+- Model data to estimating and planning tools
+- Power BI dashboards for QA and reporting
+- Coordination workflows via ACC and BIM 360
+
+</td>
+</tr>
+</table>
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+<img src="./assets/tech-stack.svg" alt="Tech stack" width="100%" />
+
 </div>
 
 <br/>
 
-**BIM & automation**
+<div align="center">
 
-![Revit](https://img.shields.io/badge/Revit-2024/2025-0A66C2?logo=autodesk&logoColor=white)
-![Dynamo](https://img.shields.io/badge/Dynamo-2.19+%20%7C%204.0-F7B500)
-![pyRevit](https://img.shields.io/badge/pyRevit-Custom%20Tools-232323?logo=python&logoColor=white)
+### BIM & Coordination
 
-**Data & platforms**
+![Revit](https://img.shields.io/badge/Revit-2024%20%2F%202025-0696D7?style=for-the-badge&logo=autodesk&logoColor=white)
+![Dynamo](https://img.shields.io/badge/Dynamo-2.19+%20%7C%204.0-F7B500?style=for-the-badge)
+![ACC](https://img.shields.io/badge/Autodesk_Construction_Cloud-0696D7?style=for-the-badge&logo=autodesk&logoColor=white)
+![BIM 360](https://img.shields.io/badge/BIM_360-FF6D00?style=for-the-badge&logo=autodesk&logoColor=white)
+![Solibri](https://img.shields.io/badge/Solibri-00A651?style=for-the-badge)
 
-![APS / Forge](https://img.shields.io/badge/Autodesk-APS%20%2F%20Forge-FF6C37?logo=autodesk&logoColor=white)
-![Power BI](https://img.shields.io/badge/PowerBI-Analytics-F2C811?logo=microsoft%20power%20bi&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-Process%20Automation-EA4B73?logo=n8n&logoColor=white)
+### Development
 
-**How this actually shows up day-to-day**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![pyRevit](https://img.shields.io/badge/pyRevit-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
-- Revit 2024/25 for modelling, prefab detailing, and productised housing systems  
-- Dynamo 2.19+ / Dynamo 4.0 (CPython3 / PythonNet) for automation graphs and rule engines  
-- Python / pyRevit for reusable tools, QA checks, and batch operations  
-- APS / Forge + Power BI for exposing BIM data and building reports around it  
-- n8n for connecting BIM outputs into wider digital workflows  
+### Platforms & Data
 
----
+![APS](https://img.shields.io/badge/Autodesk_Platform_Services-FF6C37?style=flat-square&logo=autodesk&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![n8n](https://img.shields.io/badge/n8n-EA4B73?style=flat-square&logo=n8n&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-## 📁 Highlights
-
-### 🧩 Dynamo tools for model consistency
-Automation for joins, section alignment, and dimension strategies so models follow **rules** instead of personal habits.
-
-### 🏠 Prefab & 5D prototypes
-CPQ-style setups where prefab components drive **quantities, cost, and planning** from a shared logic base.
-
-### 🧱 Parametric façade logic
-Grids, panels, and BOM-ready outputs designed so geometry, schedules, and fabrication data stay in sync.
+</div>
 
 ---
 
-## 🛰️ Visual overview
+## Workflow
 
-### BIM automation (logic view)
+<div align="center">
 
-<img alt="BIM automation" src="./assets/bim-automation.svg" width="760" />
+<img src="./assets/bim-automation.svg" alt="BIM automation workflow" width="100%" />
+
+</div>
 
 ---
 
+## Selected Work
 
-## 🌍 A bit human
+| System | What It Does | Stack |
+|:-------|:-------------|:------|
+| **Section Alignment Engine** | Auto-targets and crops sections based on house-type patterns (VGER/VGEL detection) | `Dynamo` `Python` `Revit API` |
+| **Wall Seam Resolver** | Fixes joins at prefab module boundaries automatically | `CPython3` `Dynamo 4.0` |
+| **Interior Dimensioning System** | Enforces dimensioning rules across all plan views | `Dynamo` `Python` |
+| **Parametric Façade Generator** | Constraint-driven panel layouts with synchronised BOMs | `Dynamo Sandbox` `Python` |
+| **Model Diagnostic Suite** | Validation and QA tooling for production-ready models | `pyRevit` `Solibri` `Python` |
 
-Hello — English, العربية, Türkçe, Nederlands.  
-I treat automation as a way to **reduce variation**, remove rework, and let systems carry the complexity.  
-Consistent systems create consistent projects.
+---
+
+## Approach
+
+```text
+The point is not clever automation. The point is boring consistency.
+
+→ Clear rules instead of personal habits
+→ Fewer manual edits, fewer surprises in deliverables
+→ Models that downstream teams can rely on without reverse-engineering intent
+```
+
+---
+
+## Background
+
+- **15+ years** in construction and façade engineering  
+- **MSc-level** education in environmental and construction engineering  
+- **Six Sigma Black Belt** — applied to modelling workflows and process stability  
+- Based in the Netherlands, working on industrialised housing at scale
+
+---
+
+<div align="center">
+
+**Interested in prefab systems, BIM automation, or industrialised construction?**
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samamohammad-92790416b)
+
+</div>
