@@ -3,14 +3,9 @@
   <img src="./assets/bim-hero.gif" alt="BIM automation / prefab housing animation" width="100%" />
 </p>
 
-<h1 align="left">Sam — Digital Construction Engineer (BIM Automation)</h1>
-
+<h1 align="left">Sam — Digital Construction Engineer (BIM Automation)                                                                                                             <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Sammohammad78&label=Profile+Views" /> </h1> 
 <p align="left">
   I build automation that makes BIM predictable, repeatable, and ready for industrialised construction.
-</p>
-
-<p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Sammohammad78&label=Profile+Views" />
 </p>
 
 ---
