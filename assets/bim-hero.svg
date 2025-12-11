@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0A66C2"/>
+      <stop offset="100%" style="stop-color:#00A0DC"/>
+    </linearGradient>
+    
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6D00"/>
+      <stop offset="100%" style="stop-color:#F7B500"/>
+    </linearGradient>
+
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00A651"/>
+      <stop offset="100%" style="stop-color:#39D353"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- Animated circuit lines -->
+  <g stroke="#0A66C2" stroke-width="2" fill="none" opacity="0.6">
+    <!-- Horizontal lines with animation -->
+    <path d="M 0 80 H 200 L 220 100 H 400">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 0 220 H 150 L 170 200 H 350">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1200 100 H 1000 L 980 120 H 800">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1200 200 H 1050 L 1030 180 H 850">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Left side: Prefab modules animation -->
+  <g transform="translate(80, 90)">
+    <!-- Module 1 -->
+    <g>
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#blueGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="10">WALL</text>
+    </g>
+    
+    <!-- Module 2 -->
+    <g transform="translate(70, 0)">
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#blueGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="10">FLOOR</text>
+    </g>
+    
+    <!-- Module 3 -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#blueGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="10">ROOF</text>
+    </g>
+    
+    <!-- Module 4 -->
+    <g transform="translate(70, 50)">
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#orangeGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#F7B500" font-family="JetBrains Mono, monospace" font-size="9">FAÇADE</text>
+    </g>
+  </g>
+
+  <!-- Center: Main text -->
+  <g transform="translate(600, 150)">
+    <text x="0" y="-30" text-anchor="middle" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="32" font-weight="600">
+      DIGITAL CONSTRUCTION
+    </text>
+    <text x="0" y="10" text-anchor="middle" fill="#8b949e" font-family="JetBrains Mono, monospace" font-size="16">
+      Design Intent → Automation → Factory Output
+    </text>
+    
+    <!-- Animated underline -->
+    <line x1="-200" y1="30" x2="200" y2="30" stroke="url(#blueGrad)" stroke-width="2">
+      <animate attributeName="x1" values="-200;-180;-200" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="200;180;200" dur="2s" repeatCount="indefinite"/>
+    </line>
+    
+    <!-- Pulsing dots -->
+    <circle cx="-220" cy="30" r="4" fill="#0A66C2">
+      <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="30" r="4" fill="#0A66C2">
+      <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite" begin="0.75s"/>
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" begin="0.75s"/>
+    </circle>
+  </g>
+
+  <!-- Right side: Output data stream -->
+  <g transform="translate(950, 90)">
+    <!-- Data boxes flowing down -->
+    <g>
+      <rect x="0" y="0" width="80" height="25" fill="none" stroke="url(#greenGrad)" stroke-width="1.5" rx="3">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="-20;0;60;80" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="40" y="16" text-anchor="middle" fill="#39D353" font-family="JetBrains Mono, monospace" font-size="9">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+        BOM.xlsx
+      </text>
+    </g>
+    
+    <g>
+      <rect x="0" y="35" width="80" height="25" fill="none" stroke="url(#orangeGrad)" stroke-width="1.5" rx="3">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="y" values="15;35;95;115" dur="3s" repeatCount="indefinite" begin="1s"/>
+      </rect>
+      <text x="40" y="51" text-anchor="middle" fill="#F7B500" font-family="JetBrains Mono, monospace" font-size="9">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+        SCHEDULE
+      </text>
+    </g>
+    
+    <g>
+      <rect x="0" y="70" width="80" height="25" fill="none" stroke="url(#blueGrad)" stroke-width="1.5" rx="3">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="2s"/>
+        <animate attributeName="y" values="50;70;130;150" dur="3s" repeatCount="indefinite" begin="2s"/>
+      </rect>
+      <text x="40" y="86" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="9">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="2s"/>
+        IFC MODEL
+      </text>
+    </g>
+  </g>
+
+  <!-- Floating particles -->
+  <g fill="#0A66C2">
+    <circle cx="300" cy="50" r="2">
+      <animate attributeName="cy" values="50;250;50" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="250" r="1.5">
+      <animate attributeName="cy" values="250;50;250" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="100" r="2">
+      <animate attributeName="cy" values="100;200;100" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="200" r="1.5">
+      <animate attributeName="cy" values="200;80;200" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Corner accents -->
+  <path d="M 0 0 L 60 0 L 60 5 L 5 5 L 5 60 L 0 60 Z" fill="url(#blueGrad)" opacity="0.5"/>
+  <path d="M 1200 0 L 1140 0 L 1140 5 L 1195 5 L 1195 60 L 1200 60 Z" fill="url(#blueGrad)" opacity="0.5"/>
+  <path d="M 0 300 L 60 300 L 60 295 L 5 295 L 5 240 L 0 240 Z" fill="url(#blueGrad)" opacity="0.5"/>
+  <path d="M 1200 300 L 1140 300 L 1140 295 L 1195 295 L 1195 240 L 1200 240 Z" fill="url(#blueGrad)" opacity="0.5"/>
+</svg>
