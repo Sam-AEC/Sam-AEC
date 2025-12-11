@@ -1,7 +1,5 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&height=60&lines=Product+Engineer+%E2%80%94+Digital+Construction;Building+systems+that+make+prefab+housing+work)](https://git.io/typing-svg)
-
 <img src="./assets/bim-hero.svg" alt="BIM automation hero" width="100%" />
 
 # Sam A. Mohammad
@@ -27,7 +25,7 @@ Product engineer at **Heijmans Woningbouw** in the Netherlands, working on indus
 
 I write Dynamo scripts and Python tools that turn Revit from a drawing application into a production system — where walls join correctly, sections align automatically, and façade configurations follow rules instead of tribal knowledge.
 
-Fifteen years in construction. Background in façade engineering. Six Sigma Black Belt approach to reducing variation in how models behave.
+Fifteen years in construction. Background in façade engineering.
 
 **Languages:** English • Nederlands • Türkçe • العربية
 
@@ -91,8 +89,6 @@ Structured exports for downstream systems:
 ## Tech Stack
 
 <div align="center">
-
-<img src="./assets/tech-stack.svg" alt="Tech stack" width="100%" />
 
 </div>
 
@@ -162,9 +158,7 @@ The point is not clever automation. The point is boring consistency.
 
 ## Background
 
-- **15+ years** in construction and façade engineering  
-- **MSc-level** education in environmental and construction engineering  
-- **Six Sigma Black Belt** — applied to modelling workflows and process stability  
+- **15+ years** in environmental and façade engineering  
 - Based in the Netherlands, working on industrialised housing at scale
 
 ---
