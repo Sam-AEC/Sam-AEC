@@ -32,7 +32,7 @@ Most of my work centres on Revit/Dynamo scripting, prefab logic, and structured 
 ![APS / Forge](https://img.shields.io/badge/Autodesk-APS%20%2F%20Forge-FF6C37?logo=autodesk&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?logo=microsoft%20power%20bi&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-Automation-EA4B73?logo=n8n&logoColor=white)
-![Zapier](https://img.shields.io/badge/Zapier-Workflows-FF4A00?logo=zapier&logoColor=white)
+
 
 **Day-to-day stack**
 
@@ -40,7 +40,7 @@ Most of my work centres on Revit/Dynamo scripting, prefab logic, and structured 
 - **Dynamo 2.19+ / Dynamo 4.0 (CPython3 / PythonNet)** for automation logic  
 - **Python / pyRevit** for custom tools and QA  
 - **APS / Forge + Power BI** to expose BIM data and reporting  
-- **n8n / Zapier** to connect BIM outputs to wider processes
+- **n8n ** to connect BIM outputs to wider processes
 
 ---
 
