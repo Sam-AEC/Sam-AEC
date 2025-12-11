@@ -1,191 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="260" viewBox="0 0 1200 260"
-     xmlns="http://www.w3.org/2000/svg">
-
-  <!-- ===== Background & gradients ===== -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
   <defs>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050816"/>
-      <stop offset="40%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#020617"/>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0A66C2"/>
+      <stop offset="100%" style="stop-color:#00A0DC"/>
+    </linearGradient>
+    
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6D00"/>
+      <stop offset="100%" style="stop-color:#F7B500"/>
     </linearGradient>
 
-    <linearGradient id="box-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#020617"/>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00A651"/>
+      <stop offset="100%" style="stop-color:#39D353"/>
     </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
   </defs>
 
   <!-- Background -->
-  <rect x="0" y="0" width="1200" height="260" fill="url(#bg-grad)"/>
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.5"/>
 
-  <!-- Subtle grid -->
-  <g stroke="#111827" stroke-width="0.6" opacity="0.45">
-    <path d="M40 60 H1160 M40 120 H1160 M40 180 H1160 M40 240 H1160"/>
-    <path d="M80 40 V220 M240 40 V220 M400 40 V220 M560 40 V220 M720 40 V220 M880 40 V220 M1040 40 V220"/>
+  <!-- Animated circuit lines -->
+  <g stroke="#0A66C2" stroke-width="2" fill="none" opacity="0.6">
+    <!-- Horizontal lines with animation -->
+    <path d="M 0 80 H 200 L 220 100 H 400">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 0 220 H 150 L 170 200 H 350">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1200 100 H 1000 L 980 120 H 800">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1200 200 H 1050 L 1030 180 H 850">
+      <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
   </g>
 
-  <!-- ================================================= -->
-  <!-- LEFT: PREFAB REVIT MODEL (simple isometric block) -->
-  <!-- ================================================= -->
-  <g transform="translate(170,145)">
-
-    <!-- Shadow -->
-    <polygon points="-60,35 30,35 70,20 -20,20"
-             fill="#020617" opacity="0.9"/>
-
-    <!-- Top (roof) -->
-    <!-- Top face: solid, flat roof -->
-    <polygon points="-50,-15 10,-15 30,-25 -30,-25"
-             fill="#111827" stroke="#1f2937" stroke-width="1.2"/>
-
-    <!-- Front face -->
-    <polygon points="-60,35 30,35 10,-15 -50,-15"
-             fill="url(#box-grad)" stroke="#1f2937" stroke-width="1.2"/>
-
-    <!-- Side face -->
-    <polygon points="30,35 70,20 30,-25 10,-15"
-             fill="#020617" stroke="#1f2937" stroke-width="1.2"/>
-
-    <!-- Simple façade (front) - window / grid -->
-    <g stroke="#1e293b" stroke-width="0.8">
-      <!-- verticals -->
-      <line x1="-50" y1="10" x2="-30" y2="-5"/>
-      <line x1="-40" y1="14" x2="-20" y2="-1"/>
-      <line x1="-30" y1="18" x2="-10" y2="3"/>
-      <line x1="-20" y1="22" x2="0"   y2="7"/>
-      <!-- horizontals -->
-      <line x1="-50" y1="10" x2="-20" y2="22"/>
-      <line x1="-50" y1="4"  x2="-20" y2="16"/>
-      <line x1="-50" y1="-2" x2="-20" y2="10"/>
-    </g>
-
-    <!-- Small door / opening hint -->
+  <!-- Left side: Prefab modules animation -->
+  <g transform="translate(80, 90)">
+    <!-- Module 1 -->
     <g>
-      <polygon points="-10,35 5,35 0,15 -15,15"
-               fill="#020617" stroke="#1e293b" stroke-width="0.9"/>
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#blueGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="10">WALL</text>
     </g>
-
-    <!-- Label -->
-    <g transform="translate(-80,-70)"
-       font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-       font-size="11" fill="#e5e7eb">
-      <rect x="-5" y="-16" width="170" height="24" rx="6" ry="6"
-            fill="#020617" stroke="#38bdf8" stroke-width="1"/>
-      <text x="5" y="1">Revit prefab housing model</text>
+    
+    <!-- Module 2 -->
+    <g transform="translate(70, 0)">
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#blueGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="10">FLOOR</text>
+    </g>
+    
+    <!-- Module 3 -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#blueGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="10">ROOF</text>
+    </g>
+    
+    <!-- Module 4 -->
+    <g transform="translate(70, 50)">
+      <rect x="0" y="0" width="60" height="40" fill="none" stroke="url(#orangeGrad)" stroke-width="2" rx="2">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+      </rect>
+      <text x="30" y="25" text-anchor="middle" fill="#F7B500" font-family="JetBrains Mono, monospace" font-size="9">FAÇADE</text>
     </g>
   </g>
 
-  <!-- ============================================== -->
-  <!-- RIGHT: WORKFLOW PIPELINE WITH BLINKING BLOCKS -->
-  <!-- ============================================== -->
-
-  <!-- Pipeline title -->
-  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-     font-size="12" fill="#e5e7eb">
-    <text x="430" y="55">Automation workflow</text>
-    <text x="430" y="73" fill="#9ca3af">
-      Revit → Dynamo → Python → Prefab logic / 5D
+  <!-- Center: Main text -->
+  <g transform="translate(600, 150)">
+    <text x="0" y="-30" text-anchor="middle" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="32" font-weight="600">
+      DIGITAL CONSTRUCTION
     </text>
-  </g>
-
-  <!-- Blocks + arrows -->
-  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-     font-size="11" fill="#e5e7eb" stroke-linecap="round">
-
-    <!-- 1. Revit model block -->
-    <g transform="translate(430,110)">
-      <rect id="block-revit"
-            x="0" y="0" width="140" height="42" rx="10" ry="10"
-            fill="#020617" stroke="#38bdf8" stroke-width="1.4" opacity="1">
-        <!-- Blink first in sequence -->
-        <animate attributeName="opacity"
-                 values="1;1;0.35;1"
-                 keyTimes="0;0.2;0.4;1"
-                 dur="4s"
-                 repeatCount="indefinite"
-                 begin="0s" />
-      </rect>
-      <text x="15" y="18">Revit model</text>
-      <text x="15" y="31" fill="#9ca3af">walls, floors, façades</text>
-    </g>
-
-    <!-- Arrow 1 -->
-    <g transform="translate(580,131)" stroke="#38bdf8" stroke-width="2">
-      <line x1="0" y1="0" x2="30" y2="0"/>
-      <polygon points="30,0 22,-5 22,5" fill="#38bdf8"/>
-    </g>
-
-    <!-- 2. Dynamo graphs block -->
-    <g transform="translate(620,110)">
-      <rect id="block-dynamo"
-            x="0" y="0" width="150" height="42" rx="10" ry="10"
-            fill="#020617" stroke="#facc15" stroke-width="1.4" opacity="0.9">
-        <!-- Blink second -->
-        <animate attributeName="opacity"
-                 values="0.5;1;0.5;0.5"
-                 keyTimes="0;0.2;0.4;1"
-                 dur="4s"
-                 repeatCount="indefinite"
-                 begin="0.6s" />
-      </rect>
-      <text x="15" y="18">Dynamo graphs</text>
-      <text x="15" y="31" fill="#9ca3af">joins, sections, dimensions</text>
-    </g>
-
-    <!-- Arrow 2 -->
-    <g transform="translate(780,131)" stroke="#facc15" stroke-width="2">
-      <line x1="0" y1="0" x2="30" y2="0"/>
-      <polygon points="30,0 22,-5 22,5" fill="#facc15"/>
-    </g>
-
-    <!-- 3. Python rules block -->
-    <g transform="translate(820,110)">
-      <rect id="block-python"
-            x="0" y="0" width="150" height="42" rx="10" ry="10"
-            fill="#020617" stroke="#38bdf8" stroke-width="1.4" opacity="0.9">
-        <!-- Blink third -->
-        <animate attributeName="opacity"
-                 values="0.5;1;0.5;0.5"
-                 keyTimes="0;0.2;0.4;1"
-                 dur="4s"
-                 repeatCount="indefinite"
-                 begin="1.2s" />
-      </rect>
-      <text x="15" y="18">Python rules</text>
-      <text x="15" y="31" fill="#9ca3af">filters, checks, logic</text>
-    </g>
-
-    <!-- Arrow 3 -->
-    <g transform="translate(980,131)" stroke="#22c55e" stroke-width="2">
-      <line x1="0" y1="0" x2="30" y2="0"/>
-      <polygon points="30,0 22,-5 22,5" fill="#22c55e"/>
-    </g>
-
-    <!-- 4. Prefab / 5D block -->
-    <g transform="translate(1020,110)">
-      <rect id="block-5d"
-            x="0" y="0" width="150" height="42" rx="10" ry="10"
-            fill="#020617" stroke="#22c55e" stroke-width="1.4" opacity="0.9">
-        <!-- Blink last -->
-        <animate attributeName="opacity"
-                 values="0.5;1;0.5;0.5"
-                 keyTimes="0;0.2;0.4;1"
-                 dur="4s"
-                 repeatCount="indefinite"
-                 begin="1.8s" />
-      </rect>
-      <text x="15" y="18">Prefab logic / 5D</text>
-      <text x="15" y="31" fill="#9ca3af">variants, cost, planning</text>
-    </g>
-  </g>
-
-  <!-- Bottom caption -->
-  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-     font-size="11" fill="#9ca3af" opacity="0.9">
-    <text x="60" y="230">
-      Left: simple prefab Revit unit. Right: actual workflow — Revit model → Dynamo automation → Python rules → prefab/5D outputs, highlighted in sequence.
+    <text x="0" y="10" text-anchor="middle" fill="#8b949e" font-family="JetBrains Mono, monospace" font-size="16">
+      Design Intent → Automation → Factory Output
     </text>
+    
+    <!-- Animated underline -->
+    <line x1="-200" y1="30" x2="200" y2="30" stroke="url(#blueGrad)" stroke-width="2">
+      <animate attributeName="x1" values="-200;-180;-200" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="200;180;200" dur="2s" repeatCount="indefinite"/>
+    </line>
+    
+    <!-- Pulsing dots -->
+    <circle cx="-220" cy="30" r="4" fill="#0A66C2">
+      <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="30" r="4" fill="#0A66C2">
+      <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite" begin="0.75s"/>
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite" begin="0.75s"/>
+    </circle>
   </g>
 
+  <!-- Right side: Output data stream -->
+  <g transform="translate(950, 90)">
+    <!-- Data boxes flowing down -->
+    <g>
+      <rect x="0" y="0" width="80" height="25" fill="none" stroke="url(#greenGrad)" stroke-width="1.5" rx="3">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="-20;0;60;80" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="40" y="16" text-anchor="middle" fill="#39D353" font-family="JetBrains Mono, monospace" font-size="9">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+        BOM.xlsx
+      </text>
+    </g>
+    
+    <g>
+      <rect x="0" y="35" width="80" height="25" fill="none" stroke="url(#orangeGrad)" stroke-width="1.5" rx="3">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="y" values="15;35;95;115" dur="3s" repeatCount="indefinite" begin="1s"/>
+      </rect>
+      <text x="40" y="51" text-anchor="middle" fill="#F7B500" font-family="JetBrains Mono, monospace" font-size="9">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+        SCHEDULE
+      </text>
+    </g>
+    
+    <g>
+      <rect x="0" y="70" width="80" height="25" fill="none" stroke="url(#blueGrad)" stroke-width="1.5" rx="3">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="2s"/>
+        <animate attributeName="y" values="50;70;130;150" dur="3s" repeatCount="indefinite" begin="2s"/>
+      </rect>
+      <text x="40" y="86" text-anchor="middle" fill="#58a6ff" font-family="JetBrains Mono, monospace" font-size="9">
+        <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" begin="2s"/>
+        IFC MODEL
+      </text>
+    </g>
+  </g>
+
+  <!-- Floating particles -->
+  <g fill="#0A66C2">
+    <circle cx="300" cy="50" r="2">
+      <animate attributeName="cy" values="50;250;50" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="250" r="1.5">
+      <animate attributeName="cy" values="250;50;250" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="100" r="2">
+      <animate attributeName="cy" values="100;200;100" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="200" r="1.5">
+      <animate attributeName="cy" values="200;80;200" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Corner accents -->
+  <path d="M 0 0 L 60 0 L 60 5 L 5 5 L 5 60 L 0 60 Z" fill="url(#blueGrad)" opacity="0.5"/>
+  <path d="M 1200 0 L 1140 0 L 1140 5 L 1195 5 L 1195 60 L 1200 60 Z" fill="url(#blueGrad)" opacity="0.5"/>
+  <path d="M 0 300 L 60 300 L 60 295 L 5 295 L 5 240 L 0 240 Z" fill="url(#blueGrad)" opacity="0.5"/>
+  <path d="M 1200 300 L 1140 300 L 1140 295 L 1195 295 L 1195 240 L 1200 240 Z" fill="url(#blueGrad)" opacity="0.5"/>
 </svg>
