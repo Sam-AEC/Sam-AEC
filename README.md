@@ -1,116 +1,65 @@
-# Mohammed Sam (Sammohammad78)
+# Sam — Digital Construction Engineer (BIM Automation)
 
-> Software Engineer | BIM & 3D Dev Enthusiast | Cloud-native builder
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=Sammohammad78&label=Profile+Views" />
 
-A clean, focused developer profile README. I removed older/unused project references (5D projects, Caribbean Azure, CQP) as requested and reorganized everything for clarity and impact.
-
----
-
-## Quick summary
-
-- Location: Remote
-- Work: Open to collaboration and contract work
-- Tech focus: Full-stack development, infrastructure as code, 3D/BIM automation, cloud-native deployments
+I build automation that makes BIM predictable and suitable for industrialised construction.  
+Most of my work centres on Revit/Dynamo scripting, prefab logic, and structured 5D outputs.
 
 ---
 
-## What I build
+## 🔧 Focus areas
 
-I design and build reliable, maintainable systems that bridge 3D BIM workflows and modern web/cloud engineering. Typical projects include:
-
-- Automated BIM data pipelines (glTF, IFC, Revit -> web viewers)
-- Interactive 3D web experiences using Three.js / model-viewer
-- Cloud automation and CI/CD for engineering workloads
-- Developer tools and utilities to make design data repeatable
-
----
-
-## Featured projects
-
-> NOTE: I removed older "5D projects", "Caribbean Azure" and "CQP" entries per request.
-
-- Project A — Interactive BIM viewer
-  - Tech: Three.js, React, glTF
-  - Short: Fast, searchable building model viewer with layer filtering.
-
-- Project B — BIM data pipeline
-  - Tech: Python, IFC, Docker
-  - Short: Extracts, normalizes and publishes IFC-derived metadata as JSON for dashboards.
-
-- Project C — Infrastructure & tooling
-  - Tech: Terraform, GitHub Actions, Docker
-  - Short: Production-ready infra templates and CI for building and hosting 3D apps.
-
-(If you want, I can add links and short demos for each project.)
+- Automating repetitive Revit workflows (joins, sections, dimension strategies)  
+- Prefab housing: rule-based detailing, variants, and productised components  
+- Parametric façades with fabrication-ready geometry and schedules  
+- 5D / CPQ logic connecting geometry, quantities, and cost  
+- Drawing-to-data pipelines for procurement and production
 
 ---
 
-## 3D BIM animation (interactive placeholder)
+## 🧠 Tools & stack
 
-I included a modern, embeddable placeholder for a 3D BIM animation. To show an actual interactive model you can:
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=python,js,nodejs,git,github,linux,vscode" alt="Tech icons: Python, JS, Node, Git, GitHub, Linux, VS Code" />
+</div>
 
-1. Export a glTF/glb from your BIM tool (Revit/Blender/IFC converters).
-2. Upload the .glb file to your repo (e.g., under /assets/models/).
-3. Replace the src in the <model-viewer> snippet below with the GitHub raw URL to your .glb file.
+<br/>
 
-Embed example (works in GitHub Pages or any static site):
+<!-- AEC / BIM toolchain -->
+![Revit](https://img.shields.io/badge/Revit-2024%2F2025-0A66C2?logo=autodesk&logoColor=white)
+![Dynamo](https://img.shields.io/badge/Dynamo-2.19%2B%20%7C%204.0-F7B500)
+![pyRevit](https://img.shields.io/badge/pyRevit-Tooling-232323?logo=python&logoColor=white)
+![APS / Forge](https://img.shields.io/badge/Autodesk-APS%20%2F%20Forge-FF6C37?logo=autodesk&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?logo=microsoft%20power%20bi&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-Automation-EA4B73?logo=n8n&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-Workflows-FF4A00?logo=zapier&logoColor=white)
 
-````markdown
-<figure>
-  <!-- model-viewer is supported in modern browsers. For offline/Pages use include <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script> -->
-  <model-viewer src="https://raw.githubusercontent.com/Sammohammad78/Sammohammad78/main/assets/models/building.glb" alt="BIM model" auto-rotate camera-controls ar ios-src="model.usdz" style="width:100%;max-width:900px;height:500px;background:#f6f7fb"></model-viewer>
-  <figcaption>Interactive BIM preview (replace with your model)</figcaption>
-</figure>
-````
+**Day-to-day stack**
 
-If you prefer a rendered animation (GIF/MP4), generate it from Blender or your renderer and add it under /assets/animations/ and embed with standard Markdown:
-
-```markdown
-![BIM animation](assets/animations/bim-anim.gif)
-```
-
-If you want, I can help create a small Three.js demo and a GitHub Pages site to host and showcase it.
-
----
-
-## Tech & tools
-
-- Languages: JavaScript/TypeScript, Python
-- 3D/BIM: glTF, Three.js, model-viewer, IFC, Blender
-- Cloud & infra: Docker, Terraform, GitHub Actions
-- Data: JSON, CSV, Postgres
+- **Revit** 2024/25 for modelling and prefab detailing  
+- **Dynamo 2.19+ / Dynamo 4.0 (CPython3 / PythonNet)** for automation logic  
+- **Python / pyRevit** for custom tools and QA  
+- **APS / Forge + Power BI** to expose BIM data and reporting  
+- **n8n / Zapier** to connect BIM outputs to wider processes
 
 ---
 
-## How to run the demo locally (example)
+## 📁 Work examples
 
-1. Clone the repo
+- **Dynamo tools for model consistency**  
+  Scripts for joins, section alignment, and dimension strategies that follow explicit rules.
 
-   git clone https://github.com/Sammohammad78/Sammohammad78.git
-2. Serve a static site (if demo uses model-viewer):
+- **Prefab & 5D prototypes**  
+  Early CPQ-style setups where components drive quantities, cost, and planning.
 
-   npx serve .
+- **Parametric façade logic**  
+  Grids, panels, and schedules designed so geometry and BOMs stay in sync.
 
-3. Open http://localhost:5000 and navigate to the README or demo page.
-
----
-
-## Contact
-
-- GitHub: @Sammohammad78
-- Email: (add your email)
 
 ---
 
-## Want this even cooler?
+## 🌍 A bit human
 
-I can:
-- Build a small Three.js app that loads your glTF and provides section filtering, measurements, and animated walkthroughs.
-- Create a script to export Revit/IFC to optimized glTF automatically.
-- Add a GitHub Actions workflow to validate and deploy your 3D demo to GitHub Pages on push.
-
-Tell me which of these you'd like and I will create the files and workflows.
-
----
-
-*README last updated: 2025-12-11*
+Hello — English, العربية, Türkçe, Nederlands.  
+I approach automation as a way to reduce variation and eliminate rework.  
+Consistent systems create consistent projects.
