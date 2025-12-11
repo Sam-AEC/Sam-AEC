@@ -3,9 +3,9 @@
   <img src="./assets/bim-hero.gif" alt="BIM automation / prefab housing animation" width="100%" />
 </p>
 
-<h1 align="center">Sam — Digital Construction Engineer (BIM Automation)</h1>
+<h1 align="left">Sam — Digital Construction Engineer (BIM Automation)</h1>
 
-<p align="center">
+<p align="left">
   I build automation that makes BIM predictable, repeatable, and ready for industrialised construction.
 </p>
 
