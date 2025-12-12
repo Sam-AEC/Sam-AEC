@@ -64,53 +64,6 @@ Lean Six Sigma — if it can't be measured and repeated, it doesn't ship
 
 ---
 
-## 🧱 What I Build
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/🏗️-161b22?style=flat-square" /> Prefab Housing Systems
-
-Rule-based component logic for walls, floors, roofs, façades.  
-Variant handling inside a controlled product set.  
-QA gates before production handoff.
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/⚙️-161b22?style=flat-square" /> Revit Automation
-
-Section placement + consistency enforcement.  
-Dimensioning rules across views.  
-Join / seam logic for module connections.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/🧩-161b22?style=flat-square" /> Façade Systems
-
-Constraint-driven panel grids + sub-frames.  
-Geometry + schedules + BOM exports aligned.  
-Optioning without full rework.
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/📊-161b22?style=flat-square" /> BIM → Data Pipelines
-
-Structured exports for downstream systems.  
-QA reporting + dashboards via Power BI.  
-Coordination workflows via ACC / BIM 360.
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🔧 Stacks
 
 
@@ -204,6 +157,53 @@ Coordination workflows via ACC / BIM 360.
 ![Linting](https://img.shields.io/badge/Linting-333?style=flat-square)
 
 **Typical output:** versioned automation with checks — so the code is as reliable as the output it produces.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧱 What I Build
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/🏗️-161b22?style=flat-square" /> Prefab Housing Systems
+
+Rule-based component logic for walls, floors, roofs, façades.  
+Variant handling inside a controlled product set.  
+QA gates before production handoff.
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/⚙️-161b22?style=flat-square" /> Revit Automation
+
+Section placement + consistency enforcement.  
+Dimensioning rules across views.  
+Join / seam logic for module connections.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/🧩-161b22?style=flat-square" /> Façade Systems
+
+Constraint-driven panel grids + sub-frames.  
+Geometry + schedules + BOM exports aligned.  
+Optioning without full rework.
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/📊-161b22?style=flat-square" /> BIM → Data Pipelines
+
+Structured exports for downstream systems.  
+QA reporting + dashboards via Power BI.  
+Coordination workflows via ACC / BIM 360.
 
 </td>
 </tr>
