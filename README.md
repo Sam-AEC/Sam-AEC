@@ -123,7 +123,7 @@ Structured exports for downstream systems:
 
 ## Workflow
 
-<div align="center">
+<div align="left">
 
 <img src="./assets/bim-automation.svg" alt="BIM automation workflow" width="100%" />
 
@@ -162,7 +162,7 @@ The point is not clever automation. The point is boring consistency.
 
 ---
 
-<div align="center">
+<div align="left">
 
 **Interested in prefab systems, BIM automation, or industrialised construction?**
 
