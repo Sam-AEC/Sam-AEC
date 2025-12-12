@@ -1,119 +1,109 @@
 <div align="center">
 
-<img src="./assets/bim-hero.svg" alt="BIM automation hero" width="100%" />
-
-# Sam
-
-**Product Engineer — Digital Construction & BIM Automation**
-
-I build the automation layer between design intent and factory output.  
-Revit models that behave. Façade logic that production teams can trust.
+<img src="./assets/bim-hero.svg" alt="Digital Construction — Design to Factory" width="100%" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samamohammad-92790416b)
-[![Profile Views](https://komarev.com/ghpvc/?username=Sammohammad78&style=for-the-badge&color=0A66C2&label=VIEWS)](https://github.com/Sammohammad78)
+# A. Sam Mohammad
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=500&lines=Product+Engineer+%E2%80%94+Digital+Construction;Building+the+automation+layer;between+design+intent+and+factory+output" alt="Typing SVG" />
+
+<br/>
+
+<a href="https://www.linkedin.com/in/samamohammad-92790416b">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<img src="https://img.shields.io/badge/📍_Netherlands-333?style=flat-square" alt="Location"/>
+<a href="https://github.com/Sammohammad78">
+  <img src="https://komarev.com/ghpvc/?username=Sammohammad78&style=flat-square&color=0A66C2&label=Profile+Views" alt="Views"/>
+</a>
 
 </div>
+
 
 ---
 
 ## About
 
-Product engineer at **Heijmans Woningbouw** in the Netherlands, working on industrialised housing and prefab systems.
+Product engineer in the Netherlands working on industrialised housing and prefab systems.
 
-I write Dynamo scripts and Python tools that turn Revit from a drawing application into a production system — where walls join correctly, sections align automatically, and façade configurations follow rules instead of tribal knowledge.
+I build automation that turns Revit from a drawing application into a production system where joins behave, views stay consistent, and configurations follow rules instead of tribal knowledge.
 
-Fifteen years in construction. Background in façade engineering.
+<table>
+<tr>
+<td>
 
-**Languages:** English • Nederlands • Türkçe • العربية
+**Experience**
+</td>
+<td>
 
----
+15+ years in construction + façade engineering
+</td>
+</tr>
+<tr>
+<td>
 
-## Tech Stack
+**Approach**
+</td>
+<td>
 
-<div align="center">
+Lean Six Sigma — if it can't be measured and repeated, it doesn't ship
+</td>
+</tr>
+<tr>
+<td>
 
-</div>
+**Languages**
+</td>
+<td>
 
-<br/>
-
-<div align="center">
-
-### BIM & Coordination
-
-![Revit](https://img.shields.io/badge/Revit-2024%20%2F%202025-0696D7?style=for-the-badge&logo=autodesk&logoColor=white)
-![Dynamo](https://img.shields.io/badge/Dynamo-2.19+%20%7C%204.0-F7B500?style=for-the-badge)
-![ACC](https://img.shields.io/badge/Autodesk_Construction_Cloud-0696D7?style=for-the-badge&logo=autodesk&logoColor=white)
-![BIM 360](https://img.shields.io/badge/BIM_360-FF6D00?style=for-the-badge&logo=autodesk&logoColor=white)
-![Solibri](https://img.shields.io/badge/Solibri-00A651?style=for-the-badge)
-
-### Development
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![pyRevit](https://img.shields.io/badge/pyRevit-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
-### Platforms & Data
-
-![APS](https://img.shields.io/badge/Autodesk_Platform_Services-FF6C37?style=flat-square&logo=autodesk&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![n8n](https://img.shields.io/badge/n8n-EA4B73?style=flat-square&logo=n8n&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-</div>
+🇬🇧 English · 🇳🇱 Nederlands · 🇹🇷 Türkçe · 🇸🇦 العربية
+</td>
+</tr>
+</table>
 
 ---
 
-## What I Build
-<div align="center">
+## 🧱 What I Build
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Prefab Housing Systems
+### <img src="https://img.shields.io/badge/🏗️-161b22?style=flat-square" /> Prefab Housing Systems
 
-Rule-based workflows for modular construction:
-
-- Component logic for walls, floors, roofs, façades
-- Variant handling across productised housing concepts
-- Validation tools that catch issues before production
+Rule-based component logic for walls, floors, roofs, façades.  
+Variant handling inside a controlled product set.  
+QA gates before production handoff.
 
 </td>
 <td width="50%" valign="top">
 
-### Revit Automation
+### <img src="https://img.shields.io/badge/⚙️-161b22?style=flat-square" /> Revit Automation
 
-Repeatable rules instead of manual work:
-
-- Section alignment with house-type detection
-- Dimensioning strategies enforced across views
-- Wall join logic for prefab module connections
+Section placement + consistency enforcement.  
+Dimensioning rules across views.  
+Join / seam logic for module connections.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Façade Engineering
+### <img src="https://img.shields.io/badge/🧩-161b22?style=flat-square" /> Façade Systems
 
-Parametric systems that stay synchronised:
-
-- Panel grids and sub-frames from constraint sets
-- Geometry, schedules, and BOM exports aligned
-- Climate-responsive configurations
+Constraint-driven panel grids + sub-frames.  
+Geometry + schedules + BOM exports aligned.  
+Optioning without full rework.
 
 </td>
 <td width="50%" valign="top">
 
-### BIM → Data Pipelines
+### <img src="https://img.shields.io/badge/📊-161b22?style=flat-square" /> BIM → Data Pipelines
 
-Structured exports for downstream systems:
-
-- Model data to estimating and planning tools
-- Power BI dashboards for QA and reporting
-- Coordination workflows via ACC and BIM 360
+Structured exports for downstream systems.  
+QA reporting + dashboards via Power BI.  
+Coordination workflows via ACC / BIM 360.
 
 </td>
 </tr>
@@ -121,51 +111,160 @@ Structured exports for downstream systems:
 
 ---
 
-## Workflow
+## 🔧 Stacks
 
-<div align="left">
 
-<img src="./assets/bim-automation.svg" alt="BIM automation workflow" width="100%" />
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/✅-00A651?style=flat-square" /> BIM Production
+
+![Revit](https://img.shields.io/badge/Revit_2024%2F25-0696D7?style=flat-square&logo=autodesk&logoColor=white)
+![ACC](https://img.shields.io/badge/ACC-0696D7?style=flat-square&logo=autodesk&logoColor=white)
+![BIM 360](https://img.shields.io/badge/BIM_360-FF6D00?style=flat-square&logo=autodesk&logoColor=white)
+![Solibri](https://img.shields.io/badge/Solibri-00A651?style=flat-square)
+
+**Typical output:** production-ready, validated models cleared for detailing handoff.
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/🧠-F7B500?style=flat-square" /> Revit Rule-Automation
+
+![Dynamo](https://img.shields.io/badge/Dynamo_4.0-F7B500?style=flat-square)
+![CPython3](https://img.shields.io/badge/CPython3-3776AB?style=flat-square&logo=python&logoColor=white)
+![PythonNet](https://img.shields.io/badge/PythonNet3-3776AB?style=flat-square&logo=python&logoColor=white)
+![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
+
+**Typical output:** enforce standards, automate repeatable tasks, cut manual correction cycles.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/🧱-8957e5?style=flat-square" /> Revit Add-ins (Software Lane)
+
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-512BD4?style=flat-square)
+![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
+
+**Typical output:** compiled tools with UI — validation panels, batch processors, commands teams actually use.
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/🌐-FF6C37?style=flat-square" /> Platform + Web Automation
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![APS](https://img.shields.io/badge/APS-FF6C37?style=flat-square&logo=autodesk&logoColor=white)
+![REST](https://img.shields.io/badge/REST_APIs-333?style=flat-square)
+
+**Typical output:** services that move BIM data between Revit, cloud, and external systems.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/📈-F2C811?style=flat-square" /> BIM → Reporting
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON%2FCSV-333?style=flat-square)
+
+**Typical output:** dashboards that surface model health, quantities, and QA metrics.
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://img.shields.io/badge/🔁-EA4B73?style=flat-square" /> Workflow Orchestration
+
+![n8n](https://img.shields.io/badge/n8n-EA4B73?style=flat-square&logo=n8n&logoColor=white)
+![Webhooks](https://img.shields.io/badge/Webhooks-333?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Typical output:** automated pipelines that validate, notify, and move data without manual chasing.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### <img src="https://img.shields.io/badge/🧪-58a6ff?style=flat-square" /> Engineering Quality
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square)
+![Linting](https://img.shields.io/badge/Linting-333?style=flat-square)
+
+**Typical output:** versioned automation with checks — so the code is as reliable as the output it produces.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Workflow
+
+<div align="center">
+
+<img src="./assets/bim-automation.svg" alt="BIM Automation Pipeline" width="100%" />
 
 </div>
 
 ---
 
-## Selected Work
-
-| System | What It Does | Stack |
-|:-------|:-------------|:------|
-| **Section Alignment Engine** | Auto-targets and crops sections based on house-type patterns (VGER/VGEL detection) | `Dynamo` `Python` `Revit API` |
-| **Wall Seam Resolver** | Fixes joins at prefab module boundaries automatically | `CPython3` `Dynamo 4.0` |
-| **Interior Dimensioning System** | Enforces dimensioning rules across all plan views | `Dynamo` `Python` |
-| **Parametric Façade Generator** | Constraint-driven panel layouts with synchronised BOMs | `Dynamo Sandbox` `Python` |
-| **Model Diagnostic Suite** | Validation and QA tooling for production-ready models | `pyRevit` `Solibri` `Python` |
-
----
-
-## Approach
+## 🧭 Operating Principles
 
 ```text
 The point is not clever automation. The point is boring consistency.
 
 → Clear rules instead of personal habits
 → Fewer manual edits, fewer surprises in deliverables
-→ Models that downstream teams can rely on without reverse-engineering intent
+→ Downstream teams can trust the model without reverse-engineering intent
+→ If it can't be measured and repeated, it doesn't ship
 ```
 
 ---
 
-## Background
+## 🔮 Now Building
 
-- **15+ years** in environmental and façade engineering  
-- Based in the Netherlands, working on industrialised housing at scale
+<table>
+<tr>
+<td>🌐</td>
+<td>Deeper APS integrations for cloud-based model data extraction</td>
+</tr>
+<tr>
+<td>🧱</td>
+<td>C# add-ins with proper UI for validation workflows</td>
+</tr>
+<tr>
+<td>🧪</td>
+<td>CI pipelines for Dynamo graphs (version control + automated testing)</td>
+</tr>
+</table>
 
 ---
 
-<div align="left">
+<div align="center">
 
 **Interested in prefab systems, BIM automation, or industrialised construction?**
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samamohammad-92790416b)
+<br/>
+
+<a href="https://www.linkedin.com/in/samamohammad-92790416b">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<br/><br/>
+
+<sub>🏗️ Built with Revit · Automated with Dynamo · Documented with Markdown</sub>
 
 </div>
