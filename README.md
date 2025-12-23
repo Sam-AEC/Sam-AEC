@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/bim-hero.svg" alt="Digital Construction — Design to Factory" width="100%" />
+<img src="./assets/bim-hero.svg" alt="Digital Construction Design to Factory" width="100%" />
 
 <br/>
 
@@ -42,7 +42,7 @@ I build automation that turns Revit from a drawing application into a production
 </td>
 <td>
 
-Lean Six Sigma — if it can't be measured and repeated, it doesn't ship
+Lean Six Sigma if it can't be measured and repeated, it doesn't ship
 </td>
 </tr>
 <tr>
@@ -101,7 +101,7 @@ Lean Six Sigma — if it can't be measured and repeated, it doesn't ship
 ![WPF](https://img.shields.io/badge/WPF-512BD4?style=flat-square)
 ![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
 
-**Typical output:** compiled tools with UI — validation panels, batch processors, commands teams actually use.
+**Typical output:** compiled tools with UI validation panels, batch processors, commands teams actually use.
 
 </td>
 <td width="50%" valign="top">
@@ -151,7 +151,7 @@ Lean Six Sigma — if it can't be measured and repeated, it doesn't ship
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square)
 ![Linting](https://img.shields.io/badge/Linting-333?style=flat-square)
 
-**Typical output:** versioned automation with checks — so the code is as reliable as the output it produces.
+**Typical output:** versioned automation with checks so the code is as reliable as the output it produces.
 
 </td>
 </tr>
