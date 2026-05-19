@@ -254,7 +254,7 @@ The point is not clever automation. The point is boring consistency.
 
 <br/>
 
-<a href="[https://www.linkedin.com/in/samamohammad-92790416b](https://www.linkedin.com/in/a-sam-mohammad-92790416b)">
+<a href="https://www.linkedin.com/in/a-sam-mohammad-92790416b">
   <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
