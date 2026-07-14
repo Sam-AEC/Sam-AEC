@@ -11,9 +11,7 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/a-sam-mohammad-92790416b">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/><a href="https://github.com/Sammohammad78">
-  <img src="https://komarev.com/ghpvc/?username=Sammohammad78&style=flat-square&color=0A66C2&label=Profile+Views" alt="Views"/>
-</a>
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/><a 
 
 </div>
 
