@@ -53,31 +53,24 @@ I am a Product Engineer based in the Netherlands, with more than 15 years of exp
 
 My work sits between **engineering, BIM, and software development**. I use tools such as Revit, Dynamo, Python, Rhino, and Grasshopper to turn repetitive engineering work into structured and reusable workflows.
 
-I am especially interested in problems where technical knowledge is still stored in personal habits, manual checks, spreadsheets, or undocumented modelling steps.
+
 ---
 
 ## What I Work On
 
 ### Revit and BIM Automation
 
-* Automating repetitive Revit modelling and documentation tasks
-* Translating engineering standards into clear digital rules
-* Improving consistency across views, elements, and project configurations
-* Creating validation and quality-control workflows
-
 ### Parametric Construction Systems
-
-* Rule-based façade, wall, roof, and opening configurations
-* Rhino.Inside.Revit and Grasshopper workflows
-* Controlled generation of design and production variants
-* Connecting parametric geometry with native Revit elements
 
 ### AEC Software and Data
 
-* Python tools for BIM and engineering workflows
-* Revit API experiments and C# add-in development
-* Structured BIM-data exports and reporting
-* Connecting models with web applications, APIs, and AI tools
+### Python tools for BIM and engineering workflows
+
+### Revit API experiments and C# add-in development
+
+###  Structured BIM-data exports and reporting
+
+###  Connecting models with web applications, APIs, and AI tools
 
 ---
 
