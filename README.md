@@ -1,263 +1,131 @@
 <div align="center">
 
-<img src="./assets/bim-hero.svg" alt="Digital Construction Design to Factory" width="100%" />
+<img src="./assets/bim-hero.svg" alt="Digital construction workflow from design to production" width="100%" />
 
 <br/>
 
 # A. Sam Mohammad
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&width=500&lines=Product+Engineer+%E2%80%94+Digital+Construction;Building+the+automation+layer;between+design+intent+and+factory+output" alt="Typing SVG" />
+### Product Engineer · BIM & AEC Automation
+
+I connect engineering knowledge, BIM workflows, and software to make construction processes more repeatable.
 
 <br/>
 
 <a href="https://www.linkedin.com/in/a-sam-mohammad-92790416b">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/><a 
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
 
 </div>
 
+---
+
+## About Me
+
+I am a Product Engineer based in the Netherlands, with more than 15 years of experience across construction and façade engineering.
+
+My work sits between **engineering, BIM, and software development**. I use tools such as Revit, Dynamo, Python, Rhino, and Grasshopper to turn repetitive engineering work into structured and reusable workflows.
+
+I am especially interested in problems where technical knowledge is still stored in personal habits, manual checks, spreadsheets, or undocumented modelling steps.
+---
+
+## What I Work On
+
+### Revit and BIM Automation
+
+* Automating repetitive Revit modelling and documentation tasks
+* Translating engineering standards into clear digital rules
+* Improving consistency across views, elements, and project configurations
+* Creating validation and quality-control workflows
+
+### Parametric Construction Systems
+
+* Rule-based façade, wall, roof, and opening configurations
+* Rhino.Inside.Revit and Grasshopper workflows
+* Controlled generation of design and production variants
+* Connecting parametric geometry with native Revit elements
+
+### AEC Software and Data
+
+* Python tools for BIM and engineering workflows
+* Revit API experiments and C# add-in development
+* Structured BIM-data exports and reporting
+* Connecting models with web applications, APIs, and AI tools
 
 ---
 
-## About
+## Selected Work
 
-I build automation that turns Revit from a drawing application into a production system where joins behave, views stay consistent, and configurations follow rules instead of tribal knowledge.
+### [AEC Model Bridge](https://github.com/Sam-AEC/aec-model-bridge)
 
-<table>
-<tr>
-<td>
+An open-source connection layer between AI assistants and live Revit environments.
 
-**Experience**
-</td>
-<td>
+The project explores how engineers can safely query models, create and modify elements, run quality checks, and automate documented Revit workflows through an MCP server and Revit add-in.
 
-15+ years in construction + façade engineering
-</td>
-</tr>
-<tr>
-<td>
-
-**Approach**
-</td>
-<td>
-
-Lean Six Sigma if it can't be measured and repeated, it doesn't ship
-</td>
-</tr>
-<tr>
-<td>
-
-**Languages**
-</td>
-<td>
-
-🇬🇧 English · 🇳🇱 Nederlands · 🇹🇷 Türkçe · 🇸🇦 العربية
-</td>
-</tr>
-</table>
+**Focus:** Revit API · Python · C# · MCP · Engineering automation
 
 ---
 
-## 🔧 Stacks
+### [FacadeIQ — Beta](https://facadedata.vercel.app/)
+
+A free web platform that automates several early-stage façade engineering calculations and environmental checks.
+
+It is designed to help façade engineers, architects, and developers get a faster first technical overview before moving into detailed engineering.
 
 
-<br/>
+**Focus:** Façade engineering · Calculation automation · Web tools · Technical reporting
 
-<table>
-<tr>
-<td width="50%" valign="top">
 
-### <img src="https://img.shields.io/badge/✅-00A651?style=flat-square" /> BIM Production
+---
 
-![Revit](https://img.shields.io/badge/Revit_2024%2F25-0696D7?style=flat-square&logo=autodesk&logoColor=white)
-![ACC](https://img.shields.io/badge/ACC-0696D7?style=flat-square&logo=autodesk&logoColor=white)
-![BIM 360](https://img.shields.io/badge/BIM_360-FF6D00?style=flat-square&logo=autodesk&logoColor=white)
-![Solibri](https://img.shields.io/badge/Solibri-00A651?style=flat-square)
+## Core Toolkit
 
-**Typical output:** production-ready, validated models cleared for detailing handoff.
+### Tools I Use Regularly
 
-</td>
-<td width="50%" valign="top">
+![Revit](https://img.shields.io/badge/Revit-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
+![Dynamo](https://img.shields.io/badge/Dynamo-F7B500?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Rhino](https://img.shields.io/badge/Rhino-801010?style=flat-square)
+![Grasshopper](https://img.shields.io/badge/Grasshopper-6AA84F?style=flat-square)
+![ACC](https://img.shields.io/badge/Autodesk_Construction_Cloud-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
 
-### <img src="https://img.shields.io/badge/🧠-F7B500?style=flat-square" /> Revit Rule-Automation
+### Areas I Am Developing Further
 
-![Dynamo](https://img.shields.io/badge/Dynamo_4.0-F7B500?style=flat-square)
-![CPython3](https://img.shields.io/badge/CPython3-3776AB?style=flat-square&logo=python&logoColor=white)
-![PythonNet](https://img.shields.io/badge/PythonNet3-3776AB?style=flat-square&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=csharp\&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
 ![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
-
-**Typical output:** enforce standards, automate repeatable tasks, cut manual correction cycles.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/🧱-8957e5?style=flat-square" /> Revit Add-ins (Software Lane)
-
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![WPF](https://img.shields.io/badge/WPF-512BD4?style=flat-square)
-![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
-
-**Typical output:** compiled tools with UI validation panels, batch processors, commands teams actually use.
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/🌐-FF6C37?style=flat-square" /> Platform + Web Automation
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![APS](https://img.shields.io/badge/APS-FF6C37?style=flat-square&logo=autodesk&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-333?style=flat-square)
-
-**Typical output:** services that move BIM data between Revit, cloud, and external systems.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/📈-F2C811?style=flat-square" /> BIM → Reporting
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON%2FCSV-333?style=flat-square)
-
-**Typical output:** dashboards that surface model health, quantities, and QA metrics.
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/🔁-EA4B73?style=flat-square" /> Workflow Orchestration
-
-![n8n](https://img.shields.io/badge/n8n-EA4B73?style=flat-square&logo=n8n&logoColor=white)
-![Webhooks](https://img.shields.io/badge/Webhooks-333?style=flat-square)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-**Typical output:** automated pipelines that validate, notify, and move data without manual chasing.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### <img src="https://img.shields.io/badge/🧪-58a6ff?style=flat-square" /> Engineering Quality
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-333333?style=flat-square)
+![APS](https://img.shields.io/badge/Autodesk_Platform_Services-FF6C37?style=flat-square)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square)
-![Linting](https://img.shields.io/badge/Linting-333?style=flat-square)
-
-**Typical output:** versioned automation with checks so the code is as reliable as the output it produces.
-
-</td>
-</tr>
-</table>
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-8957E5?style=flat-square)
 
 ---
 
-## 🧱 What I Build
+## Let’s Connect
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I enjoy connecting with people working on:
 
-### <img src="https://img.shields.io/badge/🏗️-161b22?style=flat-square" /> Prefab Housing Systems
+* BIM and Revit automation
+* Parametric and industrialised construction
+* Façade engineering technology
+* AEC software and product development
+* Practical applications of AI in engineering
 
-Rule-based component logic for walls, floors, roofs, façades.  
-Variant handling inside a controlled product set.  
-QA gates before production handoff.
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/⚙️-161b22?style=flat-square" /> Revit Automation
-
-Section placement + consistency enforcement.  
-Dimensioning rules across views.  
-Join / seam logic for module connections.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/🧩-161b22?style=flat-square" /> Façade Systems
-
-Constraint-driven panel grids + sub-frames.  
-Geometry + schedules + BOM exports aligned.  
-Optioning without full rework.
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/📊-161b22?style=flat-square" /> BIM → Data Pipelines
-
-Structured exports for downstream systems.  
-QA reporting + dashboards via Power BI.  
-Coordination workflows via ACC / BIM 360.
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Workflow
+I am also open to selected collaborations involving Revit tooling, BIM workflow automation, façade systems, and AEC product development.
 
 <div align="center">
-
-<img src="./assets/bim-automation.svg" alt="BIM Automation Pipeline" width="100%" />
-
-</div>
-
----
-
-## 🧭 Operating Principles
-
-```text
-The point is not clever automation. The point is boring consistency.
-
-→ Clear rules instead of personal habits
-→ Fewer manual edits, fewer surprises in deliverables
-→ Downstream teams can trust the model without reverse-engineering intent
-→ If it can't be measured and repeated, it doesn't ship
-```
-
----
-
-## 🔮 Now Building
-
-<table>
-<tr>
-<td>🌐</td>
-<td>Deeper APS integrations for cloud-based model data extraction</td>
-</tr>
-<tr>
-<td>🧱</td>
-<td>C# add-ins with proper UI for validation workflows</td>
-</tr>
-<tr>
-<td>🧪</td>
-<td>CI pipelines for Dynamo graphs (version control + automated testing)</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-**Interested in prefab systems, BIM automation, or industrialised construction?**
 
 <br/>
 
 <a href="https://www.linkedin.com/in/a-sam-mohammad-92790416b">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
 </a>
 
 <br/><br/>
 
-<sub>🏗️ Built with Revit · Automated with Dynamo · Documented with Markdown</sub>
+<sub>Engineering experience translated into repeatable digital workflows.</sub>
 
 </div>
