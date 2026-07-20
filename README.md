@@ -20,6 +20,33 @@ I connect engineering knowledge, BIM workflows, and software to make constructio
 
 ---
 
+## Core Toolkit
+
+### Tools I Use Regularly
+
+![Revit](https://img.shields.io/badge/Revit-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
+![Dynamo](https://img.shields.io/badge/Dynamo-F7B500?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Rhino](https://img.shields.io/badge/Rhino-801010?style=flat-square)
+![Grasshopper](https://img.shields.io/badge/Grasshopper-6AA84F?style=flat-square)
+![ACC](https://img.shields.io/badge/Autodesk_Construction_Cloud-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
+
+### Areas I Am Developing Further
+
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=csharp\&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
+![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-333333?style=flat-square)
+![APS](https://img.shields.io/badge/Autodesk_Platform_Services-FF6C37?style=flat-square)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-8957E5?style=flat-square)
+
+---
+
+
 ## About Me
 
 I am a Product Engineer based in the Netherlands, with more than 15 years of experience across construction and façade engineering.
@@ -78,31 +105,6 @@ It is designed to help façade engineers, architects, and developers get a faste
 
 ---
 
-## Core Toolkit
-
-### Tools I Use Regularly
-
-![Revit](https://img.shields.io/badge/Revit-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
-![Dynamo](https://img.shields.io/badge/Dynamo-F7B500?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Rhino](https://img.shields.io/badge/Rhino-801010?style=flat-square)
-![Grasshopper](https://img.shields.io/badge/Grasshopper-6AA84F?style=flat-square)
-![ACC](https://img.shields.io/badge/Autodesk_Construction_Cloud-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
-
-### Areas I Am Developing Further
-
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=csharp\&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
-![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-333333?style=flat-square)
-![APS](https://img.shields.io/badge/Autodesk_Platform_Services-FF6C37?style=flat-square)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-8957E5?style=flat-square)
-
----
 
 ## Let’s Connect
 
