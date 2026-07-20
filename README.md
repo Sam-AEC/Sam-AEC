@@ -32,9 +32,6 @@ I connect engineering knowledge, BIM workflows, and software to make constructio
 ![ACC](https://img.shields.io/badge/Autodesk_Construction_Cloud-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
-
-### Areas I Am Developing Further
-
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=csharp\&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
 ![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
