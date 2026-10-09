@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="./assets/bim-hero.svg" alt="Digital construction: prefab building components connected to automation, IFC models, bills of materials, schedules, and quality reports" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-hero-dark.png">
+  <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-hero-light.png" alt="Find parameter issues. Review the fixes. A BIM model with a door flagged for an empty Mark parameter and a callout showing the reviewed correction. Example values." width="100%">
+</picture>
 
 # A. Sam Mohammad
 
@@ -22,6 +25,11 @@ Connect Claude, Codex, and other MCP clients to a live Revit model through a Pyt
 
 For BIM engineers and developers exploring practical AI-assisted model workflows. The project also includes IFC reading and providers for Rhino, Grasshopper, and Speckle; see the repository for integration status and prerequisites.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-dark.png">
+  <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-light.png" alt="Inspect, Propose, Approve, Verify. Four steps: inspect finds an empty Mark, propose drafts a change, approve is a human decision, verify reads the value back. Example values are illustrative." width="100%">
+</picture>
+
 [![CI](https://img.shields.io/github/actions/workflow/status/Sam-AEC/aec-model-bridge/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/Sam-AEC/aec-model-bridge/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/Sam-AEC/aec-model-bridge?style=flat-square&color=0F766E)](https://github.com/Sam-AEC/aec-model-bridge/releases/latest)
 
@@ -37,8 +45,6 @@ A free web platform for early-stage façade engineering calculations and environ
 
 ## Engineering workflows
 
-<img src="./assets/bim-automation.svg" alt="Illustrative BIM workflow: Revit model, Dynamo graph logic, Python automation, validation, and bills of materials or data output" width="100%" />
-
 My work connects model information with the calculations, checks, and outputs engineering teams need:
 
 - **BIM automation:** Revit tools, parameter workflows, views, sheets, and structured model-data exports.
@@ -46,8 +52,6 @@ My work connects model information with the calculations, checks, and outputs en
 - **Engineering data and software:** Python tools, C# add-ins, reporting, and connections between models, APIs, web applications, and AI clients.
 
 ## Tech stack
-
-<img src="./assets/tech-stack.svg" alt="Engineering toolkit: Revit, Dynamo, Python, Solibri, Autodesk Construction Cloud, Power BI, Autodesk Platform Services, and GitHub" width="100%" />
 
 | Area | Tools and technologies |
 | --- | --- |
