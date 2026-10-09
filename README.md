@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero/hero-facade.svg" alt="Parametric façade elevation: panel openings vary across a grid like a Grasshopper definition, with approved panels in teal and proposed panels as dashed outlines." width="100%" />
+<img src="./assets/stack.svg" alt="Tech stack. Applications: Revit, Dynamo, Rhino, Grasshopper. Languages: Python, C# and .NET, TypeScript. Interoperability: MCP, IFC, Speckle, Revit API, Autodesk Platform Services. Delivery: Git, GitHub, GitHub Actions, Docker." width="100%" />
 
 # A. Sam Mohammad
 
@@ -13,8 +13,7 @@ I turn repetitive construction-engineering work into software. My tools connect 
 
 </div>
 
-<img src="./assets/stack.svg" alt="Tech stack. Applications: Revit, Dynamo, Rhino, Grasshopper. Languages: Python, C# and .NET, TypeScript. Interoperability: MCP, IFC, Speckle, Revit API, Autodesk Platform Services. Delivery: Git, GitHub, GitHub Actions, Docker." width="100%" />
----
+
 
 ## Selected work
 
