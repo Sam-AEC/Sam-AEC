@@ -37,12 +37,10 @@ An open-source MCP server and Revit add-in. Assistants such as Claude and Codex 
 | **Try it** | Follow the [quick start](https://github.com/Sam-AEC/aec-model-bridge#quick-start) in mock mode, which needs no Revit, or [download a release](https://github.com/Sam-AEC/aec-model-bridge/releases/latest) with an add-in for each Revit year |
 | **Inspect it** | [Source](https://github.com/Sam-AEC/aec-model-bridge) · [Install guide](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/install.md) · [Security](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/security.md) · [Tool catalogue](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/tools-generated.md) |
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/approval-flow-dark.png">
-    <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/approval-flow-light.png" alt="Approval flow: the AI assistant proposes a plan, the hub shows it in the Revit side panel, and only after you approve does the add-in run it in one named transaction. A rejected plan leaves the model untouched." width="760">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-dark.png">
+  <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-light.png" alt="Four steps: Inspect finds an empty Mark value, Propose drafts a change that is not applied, Approve is a human decision, Verify reads the value back. Example values are illustrative." width="100%">
+</picture>
 
 ### [FacadeIQ](https://facadedata.vercel.app/) (beta)
 
