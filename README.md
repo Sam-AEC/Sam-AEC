@@ -13,6 +13,7 @@ I turn repetitive construction-engineering work into software. My tools connect 
 
 </div>
 
+<img src="./assets/stack.svg" alt="Tech stack. Applications: Revit, Dynamo, Rhino, Grasshopper. Languages: Python, C# and .NET, TypeScript. Interoperability: MCP, IFC, Speckle, Revit API, Autodesk Platform Services. Delivery: Git, GitHub, GitHub Actions, Docker." width="100%" />
 ---
 
 ## Selected work
@@ -54,9 +55,6 @@ A free web platform that automates several early-stage façade engineering calcu
 
 My work sits between engineering, BIM and software development. After more than 15 years in construction and façade engineering, I use Revit, Dynamo, Python, Rhino and Grasshopper to turn repetitive engineering work into structured, reusable workflows.
 
-## Stack
-
-<img src="./assets/stack.svg" alt="Tech stack. Applications: Revit, Dynamo, Rhino, Grasshopper. Languages: Python, C# and .NET, TypeScript. Interoperability: MCP, IFC, Speckle, Revit API, Autodesk Platform Services. Delivery: Git, GitHub, GitHub Actions, Docker." width="100%" />
 
 | Area | What I use it for |
 | --- | --- |
