@@ -1,124 +1,76 @@
 <div align="center">
 
-<img src="./assets/bim-hero.svg" alt="Digital construction workflow from design to production" width="100%" />
-
-<br/>
+<img src="./assets/bim-hero.svg" alt="Digital construction: prefab building components connected to automation, IFC models, bills of materials, schedules, and quality reports" width="100%" />
 
 # A. Sam Mohammad
 
 ### Product Engineer · BIM & AEC Automation
 
-I connect engineering knowledge, BIM workflows, and software to make construction processes more repeatable.
+I turn construction and façade engineering knowledge into reusable BIM workflows, parametric systems, and software tools.
 
-<br/>
+**Based in the Netherlands · 15+ years in construction and façade engineering**
 
-<a href="https://www.linkedin.com/in/a-sam-mohammad-92790416b">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
+[Explore my work](#selected-work) · [BIM workflows](#engineering-workflows) · [Tech stack](#tech-stack) · [Connect on LinkedIn](https://www.linkedin.com/in/a-sam-mohammad-92790416b)
 
 </div>
 
----
+## Selected work
 
-## Core Toolkit
+### [AEC Model Bridge — Revit MCP server](https://github.com/Sam-AEC/aec-model-bridge)
 
-### Tools I Use Regularly
+Connect Claude, Codex, and other MCP clients to a live Revit model through a Python server and a native C# add-in. Read model data, inspect warnings, work with parameters, and prepare documentation workflows. **In the default mode, model changes require a plan that you review and approve.**
 
-![Revit](https://img.shields.io/badge/Revit-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
-![Dynamo](https://img.shields.io/badge/Dynamo-F7B500?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Rhino](https://img.shields.io/badge/Rhino-801010?style=flat-square)
-![Grasshopper](https://img.shields.io/badge/Grasshopper-6AA84F?style=flat-square)
-![ACC](https://img.shields.io/badge/Autodesk_Construction_Cloud-0696D7?style=flat-square\&logo=autodesk\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
+For BIM engineers and developers exploring practical AI-assisted model workflows. The project also includes IFC reading and providers for Rhino, Grasshopper, and Speckle; see the repository for integration status and prerequisites.
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square\&logo=csharp\&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
-![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-333333?style=flat-square)
-![APS](https://img.shields.io/badge/Autodesk_Platform_Services-FF6C37?style=flat-square)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-8957E5?style=flat-square)
+[![CI](https://img.shields.io/github/actions/workflow/status/Sam-AEC/aec-model-bridge/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/Sam-AEC/aec-model-bridge/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/Sam-AEC/aec-model-bridge?style=flat-square&color=0F766E)](https://github.com/Sam-AEC/aec-model-bridge/releases/latest)
 
----
-
-
-## About Me
-
-I am a Product Engineer based in the Netherlands, with more than 15 years of experience across construction and façade engineering.
-
-My work sits between **engineering, BIM, and software development**. I use tools such as Revit, Dynamo, Python, Rhino, and Grasshopper to turn repetitive engineering work into structured and reusable workflows.
-
-
----
-
-## What I Work On
-
-### Revit and BIM Automation
-
-### Parametric Construction Systems
-
-### AEC Software and Data
-
-### Python tools for BIM and engineering workflows
-
-### Revit API experiments and C# add-in development
-
-###  Structured BIM-data exports and reporting
-
-###  Connecting models with web applications, APIs, and AI tools
-
----
-
-## Selected Work
-
-### [AEC Model Bridge](https://github.com/Sam-AEC/aec-model-bridge)
-
-An open-source connection layer between AI assistants and live Revit environments.
-
-The project explores how engineers can safely query models, create and modify elements, run quality checks, and automate documented Revit workflows through an MCP server and Revit add-in.
-
-**Focus:** Revit API · Python · C# · MCP · Engineering automation
-
----
+**[View source](https://github.com/Sam-AEC/aec-model-bridge) · [Installation guide](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/install.md) · [MCP tool reference](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/tools-generated.md) · [Security and approval](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/security.md)**
 
 ### [FacadeIQ — Beta](https://facadedata.vercel.app/)
 
-A free web platform that automates several early-stage façade engineering calculations and environmental checks.
-
-It is designed to help façade engineers, architects, and developers get a faster first technical overview before moving into detailed engineering.
-
+A free web platform for early-stage façade engineering calculations and environmental checks. It helps façade engineers, architects, and developers get an initial technical overview before detailed engineering.
 
 **Focus:** Façade engineering · Calculation automation · Web tools · Technical reporting
 
+**[Explore FacadeIQ](https://facadedata.vercel.app/)**
 
----
+## Engineering workflows
 
+<img src="./assets/bim-automation.svg" alt="Illustrative BIM workflow: Revit model, Dynamo graph logic, Python automation, validation, and bills of materials or data output" width="100%" />
 
-## Let’s Connect
+My work connects model information with the calculations, checks, and outputs engineering teams need:
 
-I enjoy connecting with people working on:
+- **BIM automation:** Revit tools, parameter workflows, views, sheets, and structured model-data exports.
+- **Parametric construction:** Reusable geometry and workflows for façade systems and industrialised construction.
+- **Engineering data and software:** Python tools, C# add-ins, reporting, and connections between models, APIs, web applications, and AI clients.
 
-* BIM and Revit automation
-* Parametric and industrialised construction
-* Façade engineering technology
-* AEC software and product development
-* Practical applications of AI in engineering
+## Tech stack
 
-I am also open to selected collaborations involving Revit tooling, BIM workflow automation, façade systems, and AEC product development.
+<img src="./assets/tech-stack.svg" alt="Engineering toolkit: Revit, Dynamo, Python, Solibri, Autodesk Construction Cloud, Power BI, Autodesk Platform Services, and GitHub" width="100%" />
 
-<div align="center">
+| Area | Tools and technologies |
+| --- | --- |
+| BIM and computational design | Revit · Dynamo · Rhino · Grasshopper |
+| Software and automation | Python · C# · .NET · Revit API · TypeScript |
+| Model data and integration | IFC · MCP · REST APIs · Autodesk Platform Services |
+| Collaboration and delivery | Autodesk Construction Cloud · Git · GitHub · CI/CD |
 
-<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-8957E5?style=flat-square)
 
-<a href="https://www.linkedin.com/in/a-sam-mohammad-92790416b">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
-</a>
+## About me
 
-<br/><br/>
+I work at the intersection of **engineering, BIM, and software development**. My background in construction and façade engineering shapes how I build tools: around practical engineering tasks, repeatable processes, and useful model data.
 
-<sub>Engineering experience translated into repeatable digital workflows.</sub>
+## Let's connect
 
-</div>
+I am open to selected collaborations involving **Revit tooling, BIM workflow automation, façade systems, and AEC product development**.
+
+If you are working on an engineering workflow that could benefit from automation, connect with me on LinkedIn.
+
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/a-sam-mohammad-92790416b)
