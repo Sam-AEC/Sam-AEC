@@ -1,80 +1,79 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-hero-dark.png">
-  <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-hero-light.png" alt="Find parameter issues. Review the fixes. A BIM model with a door flagged for an empty Mark parameter and a callout showing the reviewed correction. Example values." width="100%">
-</picture>
+<img src="./assets/hero/hero-facade.svg" alt="Parametric façade elevation: panel openings vary across a grid like a Grasshopper definition, with approved panels in teal and proposed panels as dashed outlines." width="100%" />
 
 # A. Sam Mohammad
 
-### Product Engineer · BIM & AEC Automation
+**Product Engineer · BIM & AEC automation**
 
-I turn construction and façade engineering knowledge into reusable BIM workflows, parametric systems, and software tools.
+I turn repetitive construction-engineering work into software. My tools connect BIM models, parametric geometry and AI assistants.<br/>
+15+ years in construction and façade engineering · Netherlands
 
-**Based in the Netherlands · 15+ years in construction and façade engineering**
-
-[Explore my work](#selected-work) · [BIM workflows](#engineering-workflows) · [Tech stack](#tech-stack) · [Connect on LinkedIn](https://www.linkedin.com/in/a-sam-mohammad-92790416b)
+[**AEC Model Bridge**](https://github.com/Sam-AEC/aec-model-bridge) · [**FacadeIQ (beta)**](https://facadedata.vercel.app/) · [**LinkedIn**](https://www.linkedin.com/in/a-sam-mohammad-92790416b)
 
 </div>
 
+---
+
 ## Selected work
 
-### [AEC Model Bridge — Revit MCP server](https://github.com/Sam-AEC/aec-model-bridge)
-
-Connect Claude, Codex, and other MCP clients to a live Revit model through a Python server and a native C# add-in. Read model data, inspect warnings, work with parameters, and prepare documentation workflows. **In the default mode, model changes require a plan that you review and approve.**
-
-For BIM engineers and developers exploring practical AI-assisted model workflows. The project also includes IFC reading and providers for Rhino, Grasshopper, and Speckle; see the repository for integration status and prerequisites.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-dark.png">
-  <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-light.png" alt="Inspect, Propose, Approve, Verify. Four steps: inspect finds an empty Mark, propose drafts a change, approve is a human decision, verify reads the value back. Example values are illustrative." width="100%">
-</picture>
+### [AEC Model Bridge](https://github.com/Sam-AEC/aec-model-bridge)
 
 [![CI](https://img.shields.io/github/actions/workflow/status/Sam-AEC/aec-model-bridge/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/Sam-AEC/aec-model-bridge/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/Sam-AEC/aec-model-bridge?style=flat-square&color=0F766E)](https://github.com/Sam-AEC/aec-model-bridge/releases/latest)
+[![Revit](https://img.shields.io/badge/Revit-2024--2027-0696D7?style=flat-square)](https://github.com/Sam-AEC/aec-model-bridge#supported-revit-versions)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Sam-AEC/aec-model-bridge/blob/main/packages/mcp-server-revit/pyproject.toml)
+[![License](https://img.shields.io/badge/license-GPL--3.0%20%2B%20commercial-2563EB?style=flat-square)](https://github.com/Sam-AEC/aec-model-bridge/blob/main/LICENSING.md)
 
-**[View source](https://github.com/Sam-AEC/aec-model-bridge) · [Installation guide](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/install.md) · [MCP tool reference](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/tools-generated.md) · [Security and approval](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/security.md)**
+**AI assistants propose. You approve. Revit changes.**
 
-### [FacadeIQ — Beta](https://facadedata.vercel.app/)
+An open-source MCP server and Revit add-in. Assistants such as Claude and Codex can read and edit the Revit model you have open, but every change goes through a plan that you review and approve first.
 
-A free web platform for early-stage façade engineering calculations and environmental checks. It helps façade engineers, architects, and developers get an initial technical overview before detailed engineering.
-
-**Focus:** Façade engineering · Calculation automation · Web tools · Technical reporting
-
-**[Explore FacadeIQ](https://facadedata.vercel.app/)**
-
-## Engineering workflows
-
-My work connects model information with the calculations, checks, and outputs engineering teams need:
-
-- **BIM automation:** Revit tools, parameter workflows, views, sheets, and structured model-data exports.
-- **Parametric construction:** Reusable geometry and workflows for façade systems and industrialised construction.
-- **Engineering data and software:** Python tools, C# add-ins, reporting, and connections between models, APIs, web applications, and AI clients.
-
-## Tech stack
-
-| Area | Tools and technologies |
+| At a glance | AEC Model Bridge |
 | --- | --- |
-| BIM and computational design | Revit · Dynamo · Rhino · Grasshopper |
-| Software and automation | Python · C# · .NET · Revit API · TypeScript |
-| Model data and integration | IFC · MCP · REST APIs · Autodesk Platform Services |
-| Collaboration and delivery | Autodesk Construction Cloud · Git · GitHub · CI/CD |
+| **What it enables** | Read models, edit parameters, create elements, sheets and views, run QA/QC checks and export, all from an AI assistant. It also reads IFC files without Revit |
+| **Who it helps** | BIM managers, computational designers and engineers who want to automate documentation and QA work without giving an AI unchecked write access to the model |
+| **Maturity** | Released (v1.3.3) with CI. Revit and IFC work today; Navisworks is in progress. Live use needs Windows and a licensed Revit |
+| **Try it** | Follow the [quick start](https://github.com/Sam-AEC/aec-model-bridge#quick-start) in mock mode, which needs no Revit, or [download a release](https://github.com/Sam-AEC/aec-model-bridge/releases/latest) with an add-in for each Revit year |
+| **Inspect it** | [Source](https://github.com/Sam-AEC/aec-model-bridge) · [Install guide](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/install.md) · [Security](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/security.md) · [Tool catalogue](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/tools-generated.md) |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Revit API](https://img.shields.io/badge/Revit_API-0696D7?style=flat-square)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-8957E5?style=flat-square)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-dark.png">
+  <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-light.png" alt="Four steps: Inspect finds an empty Mark value, Propose drafts a change that is not applied, Approve is a human decision, Verify reads the value back. Example values are illustrative." width="100%">
+</picture>
 
-## About me
+### [FacadeIQ](https://facadedata.vercel.app/) (beta)
 
-I work at the intersection of **engineering, BIM, and software development**. My background in construction and façade engineering shapes how I build tools: around practical engineering tasks, repeatable processes, and useful model data.
+A free web platform that automates several early-stage façade engineering calculations and environmental checks. Façade engineers, architects and developers get a faster first technical overview before detailed engineering starts.
 
-## Let's connect
+**Maturity:** beta. **Try it:** [facadedata.vercel.app](https://facadedata.vercel.app/).
 
-I am open to selected collaborations involving **Revit tooling, BIM workflow automation, façade systems, and AEC product development**.
+---
 
-If you are working on an engineering workflow that could benefit from automation, connect with me on LinkedIn.
+## Background
 
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/a-sam-mohammad-92790416b)
+My work sits between engineering, BIM and software development. After more than 15 years in construction and façade engineering, I use Revit, Dynamo, Python, Rhino and Grasshopper to turn repetitive engineering work into structured, reusable workflows.
+
+## Stack
+
+<img src="./assets/stack.svg" alt="Tech stack. Applications: Revit, Dynamo, Rhino, Grasshopper. Languages: Python, C# and .NET, TypeScript. Interoperability: MCP, IFC, Speckle, Revit API, Autodesk Platform Services. Delivery: Git, GitHub, GitHub Actions, Docker." width="100%" />
+
+| Area | What I use it for |
+| --- | --- |
+| BIM and computational design | Revit and Dynamo for models and automation, Rhino and Grasshopper for parametric geometry |
+| Software and automation | Python for tools and the MCP server, C# and .NET for the Revit add-in, and TypeScript |
+| Model interoperability | MCP for AI access, IFC and Speckle for model data, Revit API and Autodesk Platform Services for Autodesk platforms |
+| Delivery | Git, GitHub Actions for CI and releases, Docker for reproducible runs |
+
+---
+
+## Work with me
+
+I'm open to selected collaborations on:
+
+- Revit tooling and BIM workflow automation
+- Façade systems and parametric or industrialised construction
+- AEC product development
+- Practical applications of AI in engineering
+
+[Message me on LinkedIn](https://www.linkedin.com/in/a-sam-mohammad-92790416b) with a short note on the workflow you want to improve.
