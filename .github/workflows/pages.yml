@@ -1,0 +1,68 @@
+name: Site
+
+# Builds the static site in site/ from a checkout of aec-model-bridge. It deploys only
+# when GitHub Pages is set to "GitHub Actions" in this repository's settings; until
+# then the build job still runs and checks that the site builds.
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/pages.yml"]
+  pull_request:
+    paths: ["site/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+    inputs:
+      bridge_ref:
+        description: "aec-model-bridge branch, tag or commit to document"
+        default: "main"
+  repository_dispatch:
+    types: [bridge-release]   # optional: fire this from aec-model-bridge's release workflow
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  BRIDGE_REF: ${{ inputs.bridge_ref || github.event.client_payload.ref || 'main' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Sam-AEC/aec-model-bridge
+          ref: ${{ env.BRIDGE_REF }}
+          path: bridge
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the bridge (for its real tool schemas)
+        run: pip install -e bridge/packages/mcp-server-revit
+      - name: Export tool data
+        run: python site/scripts/export_bridge_data.py --out site/.cache
+      - name: Build site
+        run: python site/build.py --bridge bridge --data site/.cache --out site/dist
+      - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site/dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
