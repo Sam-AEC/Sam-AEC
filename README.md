@@ -6,7 +6,7 @@
 
 **Product Engineer · BIM & AEC automation**
 
-I build software that makes construction engineering repeatable: tools that connect BIM models, parametric geometry and AI assistants.<br/>
+I turn repetitive construction-engineering work into software. My tools connect BIM models, parametric geometry and AI assistants.<br/>
 15+ years in construction and façade engineering · Netherlands
 
 [**AEC Model Bridge**](https://github.com/Sam-AEC/aec-model-bridge) · [**FacadeIQ (beta)**](https://facadedata.vercel.app/) · [**LinkedIn**](https://www.linkedin.com/in/a-sam-mohammad-92790416b)
@@ -27,14 +27,14 @@ I build software that makes construction engineering repeatable: tools that conn
 
 **AI assistants propose. You approve. Revit changes.**
 
-An open-source MCP server and native Revit add-in that lets assistants such as Claude and Codex read and edit the Revit model you have open. Any tool that changes the model goes through a plan that you review and approve first.
+An open-source MCP server and Revit add-in. Assistants such as Claude and Codex can read and edit the Revit model you have open, but every change goes through a plan that you review and approve first.
 
 | At a glance | AEC Model Bridge |
 | --- | --- |
-| **What it enables** | Reading models, editing parameters, creating elements, sheets and views, QA/QC checks and exports from an AI assistant, plus IFC reading without Revit |
-| **Who it helps** | BIM managers, computational designers and engineers who want to automate documentation and QA work without giving an AI unchecked write access |
-| **Maturity** | Released (v1.3.3) with CI. Revit and IFC are available; Navisworks is in progress. Needs Windows and a licensed Revit for live use |
-| **Try it** | Start in mock mode without Revit, or download a [release](https://github.com/Sam-AEC/aec-model-bridge/releases/latest) with an add-in per Revit year |
+| **What it enables** | Read models, edit parameters, create elements, sheets and views, run QA/QC checks and export, all from an AI assistant. It also reads IFC files without Revit |
+| **Who it helps** | BIM managers, computational designers and engineers who want to automate documentation and QA work without giving an AI unchecked write access to the model |
+| **Maturity** | Released (v1.3.3) with CI. Revit and IFC work today; Navisworks is in progress. Live use needs Windows and a licensed Revit |
+| **Try it** | Follow the [quick start](https://github.com/Sam-AEC/aec-model-bridge#quick-start) in mock mode, which needs no Revit, or [download a release](https://github.com/Sam-AEC/aec-model-bridge/releases/latest) with an add-in for each Revit year |
 | **Inspect it** | [Source](https://github.com/Sam-AEC/aec-model-bridge) · [Install guide](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/install.md) · [Security](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/security.md) · [Tool catalogue](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/tools-generated.md) |
 
 <p align="center">
@@ -46,7 +46,7 @@ An open-source MCP server and native Revit add-in that lets assistants such as C
 
 ### [FacadeIQ](https://facadedata.vercel.app/) (beta)
 
-A free web platform that automates several early-stage façade engineering calculations and environmental checks. It gives façade engineers, architects and developers a faster first technical overview before detailed engineering starts.
+A free web platform that automates several early-stage façade engineering calculations and environmental checks. Façade engineers, architects and developers get a faster first technical overview before detailed engineering starts.
 
 **Maturity:** beta. **Try it:** [facadedata.vercel.app](https://facadedata.vercel.app/).
 
@@ -54,7 +54,7 @@ A free web platform that automates several early-stage façade engineering calcu
 
 ## Background
 
-I'm a product engineer with more than 15 years in construction and façade engineering. My work sits between engineering, BIM and software development. I use Revit, Dynamo, Python, Rhino and Grasshopper to turn repetitive engineering work into structured, reusable workflows.
+My work sits between engineering, BIM and software development. After more than 15 years in construction and façade engineering, I use Revit, Dynamo, Python, Rhino and Grasshopper to turn repetitive engineering work into structured, reusable workflows.
 
 ## Stack
 
@@ -78,4 +78,4 @@ I'm open to selected collaborations on:
 - AEC product development
 - Practical applications of AI in engineering
 
-The quickest route is [LinkedIn](https://www.linkedin.com/in/a-sam-mohammad-92790416b). A short note on the workflow you want to improve is a good start.
+[Message me on LinkedIn](https://www.linkedin.com/in/a-sam-mohammad-92790416b) with a short note on the workflow you want to improve.
