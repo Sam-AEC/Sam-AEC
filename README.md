@@ -19,11 +19,7 @@ I turn repetitive construction-engineering work into software. My tools connect 
 
 ### [AEC Model Bridge](https://github.com/Sam-AEC/aec-model-bridge)
 
-[![CI](https://img.shields.io/github/actions/workflow/status/Sam-AEC/aec-model-bridge/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/Sam-AEC/aec-model-bridge/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/Sam-AEC/aec-model-bridge?style=flat-square&color=0F766E)](https://github.com/Sam-AEC/aec-model-bridge/releases/latest)
-[![Revit](https://img.shields.io/badge/Revit-2024--2027-0696D7?style=flat-square)](https://github.com/Sam-AEC/aec-model-bridge#supported-revit-versions)
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Sam-AEC/aec-model-bridge/blob/main/packages/mcp-server-revit/pyproject.toml)
-[![License](https://img.shields.io/badge/license-GPL--3.0%20%2B%20commercial-2563EB?style=flat-square)](https://github.com/Sam-AEC/aec-model-bridge/blob/main/LICENSING.md)
+
 
 **AI assistants propose. You approve. Revit changes.**
 
@@ -37,10 +33,6 @@ An open-source MCP server and Revit add-in. Assistants such as Claude and Codex 
 | **Try it** | Follow the [quick start](https://github.com/Sam-AEC/aec-model-bridge#quick-start) in mock mode, which needs no Revit, or [download a release](https://github.com/Sam-AEC/aec-model-bridge/releases/latest) with an add-in for each Revit year |
 | **Inspect it** | [Source](https://github.com/Sam-AEC/aec-model-bridge) · [Install guide](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/install.md) · [Security](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/security.md) · [Tool catalogue](https://github.com/Sam-AEC/aec-model-bridge/blob/main/docs/tools-generated.md) |
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-dark.png">
-  <img src="https://raw.githubusercontent.com/Sam-AEC/aec-model-bridge/main/docs/images/readme/readme-workflow-light.png" alt="Four steps: Inspect finds an empty Mark value, Propose drafts a change that is not applied, Approve is a human decision, Verify reads the value back. Example values are illustrative." width="100%">
-</picture>
 
 ### [FacadeIQ](https://facadedata.vercel.app/) (beta)
 
