@@ -16,7 +16,7 @@ This document explains how the public profile repository is maintained.
 1. Edit the generator in `assets/src/` and run it to change an image: `python3 assets/src/make_hero.py` or `make_stack.py`. Do not edit the SVG output by hand.
 2. Keep essential text (name, role, links) in `README.md`, not inside images.
 3. Check that every image path and link in the README resolves before merging.
-4. Project facts such as version, tool count and Revit versions come from the bridge repository. Update them there, then rebuild the site; do not retype them here. The README shows version 1.3.3 and "Revit 2024-2027" as static text, so recheck both after a release.
+4. Project facts such as version, tool count and Revit versions come from the bridge repository. Update them there, then rebuild the site; do not retype them here. The README shows the version (1.5.0), the tool count (307), the test count (about 3,700) and "Revit 2024 to 2027" as static text, so recheck all four after a release. The flagship headline is copied from the bridge README; keep the two the same.
 
 ## Content Principles
 
