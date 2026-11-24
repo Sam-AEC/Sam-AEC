@@ -48,7 +48,7 @@ def facade():
     cols, rows = 24, 8
     x0, y0, cw, ch = 430, 52, 30, 30          # unit-panel pitch
     ax, ay = 15.5, 3.0                        # attractor position (grid units)
-    out = [caption("BIM  ·  AEC AUTOMATION")]
+    out = [caption("BUILDINGS  ·  AS DATA")]
     # mullions + transoms
     for c in range(cols + 1):
         out.append(f'<line x1="{x0+c*cw}" y1="{y0}" x2="{x0+c*cw}" y2="{y0+rows*ch}" stroke="#1f2c47" stroke-width="1"/>')
@@ -88,9 +88,9 @@ def facade():
                f'<rect x="{x0+190}" y="{ly-9}" width="14" height="10" rx="2" fill="{TEAL}"/><text x="{x0+212}" y="{ly}">APPROVED</text>'
                f'<rect x="{x0+320}" y="{ly-9}" width="14" height="10" rx="2" fill="none" stroke="#5eead4" stroke-dasharray="3 2"/><text x="{x0+342}" y="{ly}">PROPOSED</text></g>')
     # left scrim text block (non-essential; README holds the real text)
-    out.append(f'<g font-size="34" font-weight="800" fill="{INK}" letter-spacing="-.6"><text x="48" y="150">From model</text><text x="48" y="192">to façade.</text></g>')
-    out.append(f'<text x="48" y="226" font-size="15" fill="{MUTE}">Parametric geometry, BIM data</text><text x="48" y="248" font-size="15" fill="{MUTE}">and software, in one workflow.</text>')
-    return shell("Parametric façade elevation", "A unitised façade elevation. Panel apertures follow an attractor point, as in a parametric Grasshopper definition; teal panels are approved changes and dashed panels are proposed.", "".join(out))
+    out.append(f'<g font-size="32" font-weight="800" fill="{INK}" letter-spacing="-.6"><text x="48" y="150">Buildings,</text><text x="48" y="192">machine-readable.</text></g>')
+    out.append(f'<text x="48" y="226" font-size="15" fill="{MUTE}">Every panel is a record. Software</text><text x="48" y="248" font-size="15" fill="{MUTE}">proposes a change. A person approves it.</text>')
+    return shell("Buildings, machine-readable", "A unitised façade elevation. Panel apertures follow an attractor point, as in a parametric Grasshopper definition; teal panels are approved changes and dashed panels are proposed.", "".join(out))
 
 
 # ---------------------------------------------------------------- node graph
