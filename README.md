@@ -14,7 +14,7 @@ Netherlands · [**AEC Model Bridge**](https://github.com/Sam-AEC/aec-model-bridg
 
 ## Flagship: [AEC Model Bridge](https://github.com/Sam-AEC/aec-model-bridge)
 
-**The Revit MCP server that asks first.**
+**AI for Revit you can trust.**
 
 AI assistants such as Claude and Codex read the Revit model you have open. By default, nothing in it changes until a person approves a plan. It is open source: a Python MCP server and a C# Revit add-in.
 
